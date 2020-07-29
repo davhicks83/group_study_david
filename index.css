@@ -47,7 +47,29 @@ table {
 	border-spacing: 0;
 }
 
-.staff_list.ul {
-    font-family: 'Oswald', sans-serif;
-    list-style-type: circle;
+/* This Starts My Code */
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+}
+
+h2 {
+	display: flex;
+	font-size: 1.5rem;
+	justify-content: center;
+}
+
+
+.staff_list {
+	border: 1px solid black;
+}
+
+.student_list {
+	border: 1px solid black;
+}
+
+#members {
+	display: flex;
 }

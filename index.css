@@ -48,28 +48,37 @@ table {
 }
 
 /* This Starts My Code */
+html {
+	background-image: url(/Files/jon-tyson-1aoU4Ej3UyE-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
 
 h1 {
 	display: flex;
 	justify-content: center;
-	font-size: 2rem;
+	font-size: 3.5rem;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: wheat
 }
 
-h2 {
+.description {
 	display: flex;
 	font-size: 1.5rem;
 	justify-content: center;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: wheat;
 }
 
-
-.staff_list {
-	border: 1px solid black;
-}
-
-.student_list {
-	border: 1px solid black;
-}
-
-#members {
+.members {
+	font-family: 'Permanent Marker', cursive;
+	color: white;
 	display: flex;
+	justify-content: space-around;
 }
+
+a {
+	color: inherit;
+}
+

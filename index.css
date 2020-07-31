@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*  
+CSS rules to specify families
+
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Shadows Into Light', cursive;
+*/
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* This Starts My Code */
+html {
+	background-image: url(/Files/jon-tyson-1aoU4Ej3UyE-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+
+.transbox {
+	margin: 30px;
+	background-color: rgba(42,85,96,0.4);
+
+ }
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 5rem;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: rgb(93, 229, 253);
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;;
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+
+h3 {
+	font-size: 	2.5rem;
+	color: rgb(247, 248, 250);
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.description {
+	display: flex;
+	font-size: 2rem;
+	justify-content: center;
+	font-family: 'Gloria Hallelujah', cursive;
+	color: rgb(93, 229, 253);
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.members {
+	font-family: 'Permanent Marker', cursive;
+	color: white;
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+a {
+	color: inherit;
+}
+
+#staff_list {
+	margin: 5%;
+	line-height: 1.5;
+	font-size: 1.5rem;
+	padding: 1em;
+	min-width: 250px;
+}
+
+#student_list {
+	margin: 5%;
+	line-height:  1.5;
+	font-size: 1.5rem;
+	padding: 1em;
+	min-width: 250px;
+}
+
